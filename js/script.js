@@ -1,16 +1,8 @@
-const formulario = document.querySelector("#formCadastro");
+const botao = document.querySelector("#botaoMostrar");
+const retorno = document.querySelector("#retorno");
 
-formulario.addEventListener("submit", function(event){
-    event.preventDefault();
+botao.addEventListener("click", function(){
 
-    const nome = document.querySelector("#nome").value;
-    const destino = document.querySelector("#destino").value;
-
-    const mensagem = document.querySelector("#mensagem");
-
-    mensagem.textContent =
-    "ola," + nome + "! Sua proxima aventura sera em " + destino + "!";
-
-    formulario.reset();
+    retorno.textContent = "Você clicou no botão!"
 
 })
