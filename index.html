@@ -1,24 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botão com javaScript</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>calculadora</title>
 </head>
 <body>
     
-    <main class="container">
-        <h1>Gerador de Frases</h1>
-        
-        <button id="botaoCriar">Criar Frases</button>
-        <br><br>
-        <button id="botaoApagar">Apagar tudo</button>
-        <br><br>
-        <p id="retorno"></p>
-    </main>
+    <h2>Calculo</h2>
+
+    <form id="formCalculo">
+        <label for="numero1">Primeiro numero:</label><br><br>
+        <input type="number" id="numero1" placeholder="EX:10"></input><br><br>
+        <label for="numero2">Segundo numero:</label><br><br>
+        <input type="number" id="numero2" placeholder="EX:10"><br><br>
+        <button type="submit">Somar</button>
+    </form>
+
+    <p id="resultadoCalculo"></p>
 
 
     <script src="/js/script.js"></script>
 </body>
-</html> 
+</html>
