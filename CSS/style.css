@@ -1,12 +1,29 @@
-.pai{
+.aura{
+    background-color: rgb(188, 212, 163);
+    border: 1px solid black;
+    text-align: center;
     width: 400px;
-    background-color: #e5e7eb;
     padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
 }
-
-.filho{
-    width: 50%;
-    background-color: #2563eb;
-    color: white;
-    padding: 10px;
+.resenha1{
+background-color: rgb(235, 235, 235);
+border: 1px solid black;
+text-align: center;
+width: 50%;
+padding: 2px;
+flex-direction: column;
+font-weight: bold;
+border-radius: 25px;
+}
+.h1{
+    text-align: center;
+}
+.sabor{
+    background-color: white;
+    margin: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
 }
